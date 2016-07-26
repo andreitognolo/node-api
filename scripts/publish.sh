@@ -4,6 +4,7 @@ set -e #exit on error
 
 version=0.0.$SNAP_PIPELINE_COUNTER
 
+
 git tag $version
 git push origin --tag
 
